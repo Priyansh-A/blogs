@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .models import Post
 from django.core.paginator import EmptyPage, PageNotAnInteger,    Paginator
 from django.shortcuts import get_object_or_404, render
-from django.views.generic import ListView
+from django.core.mail import send_mail
 from .forms import EmailPostForm
 # Create your views here.
 def post_list(request):
@@ -38,14 +38,6 @@ def post_detail(request, year, month, day, post):
         {'post':post}
     )
 
-# using class to view
-# class PostListView(ListView):
-#     """ Alternative post list view """
-#     queryset = Post.published.all()
-#     context_object_name = "posts"
-#     paginate_by = 4
-#     template_name = 'blog/post/list.html'
-
 # email validation
 def post_share(request, post_id):
     # to retrieve posts by their id
@@ -54,6 +46,7 @@ def post_share(request, post_id):
         id = post_id,
         status = Post.Status.PUBLISHED
     )
+    sent = False
     
     if request.method == "POST":
         # submitting a form
@@ -62,7 +55,7 @@ def post_share(request, post_id):
             cd = form.cleaned_data
     else:
         form = EmailPostForm()
-        return render(
+    return render(
             request,
             "blog/post/share.html",
             {
