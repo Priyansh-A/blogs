@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Post
+from .models import Comment , Post
 # Register your models here.
 #how the data saved using the post model gonna validate in the admin/blog making it more interactive
 @admin.register(Post)
@@ -12,3 +12,9 @@ class PostAdmin(admin.ModelAdmin):
     date_hierarchy='publish'
     ordering=['status','publish']
     show_facets=admin.ShowFacets.ALWAYS #used to show numbers
+    
+@admin.register(Comment)
+class CommentAdmin(admin.ModelAdmin):
+    list_display=['name','email','post','created','active']
+    list_filter=['active','created','updated']
+    search_fields=['name','email','body']
