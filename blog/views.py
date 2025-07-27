@@ -3,7 +3,8 @@ from .models import Post
 from django.core.paginator import EmptyPage, PageNotAnInteger,    Paginator
 from django.shortcuts import get_object_or_404, render
 from django.core.mail import send_mail
-from .forms import EmailPostForm
+from .forms import CommentForm, EmailPostForm
+from django.views.decorators.http import require_POST
 # Create your views here.
 def post_list(request):
     post_list = Post.published.all()
@@ -31,11 +32,18 @@ def post_detail(request, year, month, day, post):
         publish__year=year,
         publish__month=month,
         publish__day=day 
-    )    
+    )  
+    comments = post.comments.filter(active=True)
+    form = CommentForm()
+    
     return render(
         request,
         'blog/post/detail.html',
-        {'post':post}
+        {
+            'post':post,
+            'comments':comments,
+            'form':form,
+            }
     )
 
 # email validation
@@ -82,3 +90,28 @@ def post_share(request, post_id):
                 'sent': sent,
             }
         )    
+    
+    # commenting 
+@require_POST
+def post_comment(request,post_id):
+    post = get_object_or_404(
+        Post,
+        id = post_id,
+        status = Post.Status.PUBLISHED,
+    )
+    
+    comment = None
+    form = CommentForm(data = request.Post)
+    if form.is_valid():
+        comment = form.save(commit=False)
+        comment.post = post
+        comment.save()
+        return render(
+            request,
+            'blog/post/comment.html',
+            {
+                'post':post,
+                'form':form,
+                'comment':comment,
+            }
+        )
