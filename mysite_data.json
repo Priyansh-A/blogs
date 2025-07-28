@@ -1,52 +1,13 @@
 [
 {
   "model": "admin.logentry",
-  "pk": 1,
-  "fields": {
-    "action_time": "2025-07-16T10:44:43.954Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "1",
-    "object_repr": "anxious people",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 2,
-  "fields": {
-    "action_time": "2025-07-16T10:53:33.076Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "2",
-    "object_repr": "a man called ove",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 3,
-  "fields": {
-    "action_time": "2025-07-16T11:01:03.097Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "3",
-    "object_repr": "who was django reinhardt?",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
   "pk": 4,
   "fields": {
-    "action_time": "2025-07-17T12:19:15.826Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "4",
-    "object_repr": "balls itch",
+    "action_time": "2025-07-28T12:12:17.446Z",
+    "user": 6,
+    "content_type": 4,
+    "object_id": "7",
+    "object_repr": "user",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -55,37 +16,37 @@
   "model": "admin.logentry",
   "pk": 5,
   "fields": {
-    "action_time": "2025-07-18T08:32:51.686Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "7",
-    "object_repr": "who the hell do you think i am?",
-    "action_flag": 3,
-    "change_message": ""
+    "action_time": "2025-07-28T12:23:14.305Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Post object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
   }
 },
 {
   "model": "admin.logentry",
   "pk": 6,
   "fields": {
-    "action_time": "2025-07-18T08:32:51.686Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "8",
-    "object_repr": "sigma balls",
-    "action_flag": 3,
-    "change_message": ""
+    "action_time": "2025-07-28T12:23:46.816Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Post object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
   }
 },
 {
   "model": "admin.logentry",
   "pk": 7,
   "fields": {
-    "action_time": "2025-07-18T08:33:51.435Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "9",
-    "object_repr": "Post 1",
+    "action_time": "2025-07-28T12:24:15.001Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Post object (3)",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -94,11 +55,11 @@
   "model": "admin.logentry",
   "pk": 8,
   "fields": {
-    "action_time": "2025-07-20T08:42:29.940Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "10",
-    "object_repr": "new post",
+    "action_time": "2025-07-28T12:24:44.687Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Post object (4)",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -107,11 +68,11 @@
   "model": "admin.logentry",
   "pk": 9,
   "fields": {
-    "action_time": "2025-07-20T09:43:05.459Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "11",
-    "object_repr": "one more post now",
+    "action_time": "2025-07-28T12:25:12.080Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Post object (5)",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -120,11 +81,11 @@
   "model": "admin.logentry",
   "pk": 10,
   "fields": {
-    "action_time": "2025-07-24T09:13:57.824Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "12",
-    "object_repr": "new post hai re",
+    "action_time": "2025-07-28T12:25:38.701Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Post object (6)",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -133,11 +94,11 @@
   "model": "admin.logentry",
   "pk": 11,
   "fields": {
-    "action_time": "2025-07-24T09:14:26.064Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "13",
-    "object_repr": "another post ahh",
+    "action_time": "2025-07-28T12:26:12.026Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Post object (7)",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -146,76 +107,11 @@
   "model": "admin.logentry",
   "pk": 12,
   "fields": {
-    "action_time": "2025-07-24T09:14:57.285Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "14",
-    "object_repr": "another one another one",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 13,
-  "fields": {
-    "action_time": "2025-07-27T04:06:22.079Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Comment by the post was nice ig on Post object (13)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 14,
-  "fields": {
-    "action_time": "2025-07-27T08:08:55.162Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "1",
-    "object_repr": "jszz",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 15,
-  "fields": {
-    "action_time": "2025-07-27T08:44:10.016Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "15",
-    "object_repr": "Post object (15)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 16,
-  "fields": {
-    "action_time": "2025-07-27T08:44:43.870Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "16",
-    "object_repr": "Post object (16)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 17,
-  "fields": {
-    "action_time": "2025-07-27T10:28:58.050Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "17",
-    "object_repr": "Post object (17)",
+    "action_time": "2025-07-28T12:26:38.788Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Post object (8)",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -440,214 +336,214 @@
   "model": "auth.permission",
   "pk": 25,
   "fields": {
-    "name": "Can add post",
+    "name": "Can add site",
     "content_type": 7,
-    "codename": "add_post"
+    "codename": "add_site"
   }
 },
 {
   "model": "auth.permission",
   "pk": 26,
   "fields": {
-    "name": "Can change post",
+    "name": "Can change site",
     "content_type": 7,
-    "codename": "change_post"
+    "codename": "change_site"
   }
 },
 {
   "model": "auth.permission",
   "pk": 27,
   "fields": {
-    "name": "Can delete post",
+    "name": "Can delete site",
     "content_type": 7,
-    "codename": "delete_post"
+    "codename": "delete_site"
   }
 },
 {
   "model": "auth.permission",
   "pk": 28,
   "fields": {
-    "name": "Can view post",
+    "name": "Can view site",
     "content_type": 7,
-    "codename": "view_post"
+    "codename": "view_site"
   }
 },
 {
   "model": "auth.permission",
   "pk": 29,
   "fields": {
-    "name": "Can add comment",
+    "name": "Can add tag",
     "content_type": 8,
-    "codename": "add_comment"
+    "codename": "add_tag"
   }
 },
 {
   "model": "auth.permission",
   "pk": 30,
   "fields": {
-    "name": "Can change comment",
+    "name": "Can change tag",
     "content_type": 8,
-    "codename": "change_comment"
+    "codename": "change_tag"
   }
 },
 {
   "model": "auth.permission",
   "pk": 31,
   "fields": {
-    "name": "Can delete comment",
+    "name": "Can delete tag",
     "content_type": 8,
-    "codename": "delete_comment"
+    "codename": "delete_tag"
   }
 },
 {
   "model": "auth.permission",
   "pk": 32,
   "fields": {
-    "name": "Can view comment",
+    "name": "Can view tag",
     "content_type": 8,
-    "codename": "view_comment"
+    "codename": "view_tag"
   }
 },
 {
   "model": "auth.permission",
   "pk": 33,
   "fields": {
-    "name": "Can add tag",
+    "name": "Can add tagged item",
     "content_type": 9,
-    "codename": "add_tag"
+    "codename": "add_taggeditem"
   }
 },
 {
   "model": "auth.permission",
   "pk": 34,
   "fields": {
-    "name": "Can change tag",
+    "name": "Can change tagged item",
     "content_type": 9,
-    "codename": "change_tag"
+    "codename": "change_taggeditem"
   }
 },
 {
   "model": "auth.permission",
   "pk": 35,
   "fields": {
-    "name": "Can delete tag",
+    "name": "Can delete tagged item",
     "content_type": 9,
-    "codename": "delete_tag"
+    "codename": "delete_taggeditem"
   }
 },
 {
   "model": "auth.permission",
   "pk": 36,
   "fields": {
-    "name": "Can view tag",
+    "name": "Can view tagged item",
     "content_type": 9,
-    "codename": "view_tag"
+    "codename": "view_taggeditem"
   }
 },
 {
   "model": "auth.permission",
   "pk": 37,
   "fields": {
-    "name": "Can add tagged item",
+    "name": "Can add post",
     "content_type": 10,
-    "codename": "add_taggeditem"
+    "codename": "add_post"
   }
 },
 {
   "model": "auth.permission",
   "pk": 38,
   "fields": {
-    "name": "Can change tagged item",
+    "name": "Can change post",
     "content_type": 10,
-    "codename": "change_taggeditem"
+    "codename": "change_post"
   }
 },
 {
   "model": "auth.permission",
   "pk": 39,
   "fields": {
-    "name": "Can delete tagged item",
+    "name": "Can delete post",
     "content_type": 10,
-    "codename": "delete_taggeditem"
+    "codename": "delete_post"
   }
 },
 {
   "model": "auth.permission",
   "pk": 40,
   "fields": {
-    "name": "Can view tagged item",
+    "name": "Can view post",
     "content_type": 10,
-    "codename": "view_taggeditem"
+    "codename": "view_post"
   }
 },
 {
   "model": "auth.permission",
   "pk": 41,
   "fields": {
-    "name": "Can add site",
+    "name": "Can add comment",
     "content_type": 11,
-    "codename": "add_site"
+    "codename": "add_comment"
   }
 },
 {
   "model": "auth.permission",
   "pk": 42,
   "fields": {
-    "name": "Can change site",
+    "name": "Can change comment",
     "content_type": 11,
-    "codename": "change_site"
+    "codename": "change_comment"
   }
 },
 {
   "model": "auth.permission",
   "pk": 43,
   "fields": {
-    "name": "Can delete site",
+    "name": "Can delete comment",
     "content_type": 11,
-    "codename": "delete_site"
+    "codename": "delete_comment"
   }
 },
 {
   "model": "auth.permission",
   "pk": 44,
   "fields": {
-    "name": "Can view site",
+    "name": "Can view comment",
     "content_type": 11,
-    "codename": "view_site"
+    "codename": "view_comment"
   }
 },
 {
   "model": "auth.user",
-  "pk": 1,
+  "pk": 6,
   "fields": {
-    "password": "pbkdf2_sha256$1000000$HH4lBRjN7aIkihTIQijstd$qRC2Xo0CFY2bNtEmZVjONj0rXyTvcpKmpRzeT99mU3A=",
-    "last_login": "2025-07-16T10:41:52.156Z",
+    "password": "pbkdf2_sha256$1000000$kIs3PrrRWlYnaxcAoUahuM$at81IHI5s2vhcCDJp9l1MoTEvKmF/jEaEW03Fyv1OwI=",
+    "last_login": "2025-07-28T12:11:59.945Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
     "last_name": "",
-    "email": "admintest@123.com",
+    "email": "awasthi01@gmail.com",
     "is_staff": true,
     "is_active": true,
-    "date_joined": "2025-07-16T10:40:58.206Z",
+    "date_joined": "2025-07-28T12:11:29.078Z",
     "groups": [],
     "user_permissions": []
   }
 },
 {
   "model": "auth.user",
-  "pk": 2,
+  "pk": 7,
   "fields": {
-    "password": "",
+    "password": "!7sTpjxckiP1tDwx4UnQhbfsUFRSkxLTA0MLuvsDO",
     "last_login": null,
     "is_superuser": false,
-    "username": "user2",
+    "username": "user",
     "first_name": "",
     "last_name": "",
     "email": "",
     "is_staff": false,
     "is_active": true,
-    "date_joined": "2025-07-17T12:31:24.335Z",
+    "date_joined": "2025-07-28T12:12:17.431Z",
     "groups": [],
     "user_permissions": []
   }
@@ -704,21 +600,13 @@
   "model": "contenttypes.contenttype",
   "pk": 7,
   "fields": {
-    "app_label": "blog",
-    "model": "post"
+    "app_label": "sites",
+    "model": "site"
   }
 },
 {
   "model": "contenttypes.contenttype",
   "pk": 8,
-  "fields": {
-    "app_label": "blog",
-    "model": "comment"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 9,
   "fields": {
     "app_label": "taggit",
     "model": "tag"
@@ -726,7 +614,7 @@
 },
 {
   "model": "contenttypes.contenttype",
-  "pk": 10,
+  "pk": 9,
   "fields": {
     "app_label": "taggit",
     "model": "taggeditem"
@@ -734,18 +622,26 @@
 },
 {
   "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
   "pk": 11,
   "fields": {
-    "app_label": "sites",
-    "model": "site"
+    "app_label": "blog",
+    "model": "comment"
   }
 },
 {
   "model": "sessions.session",
-  "pk": "4s9hfex5d0jmsidc4y94a3op453gjfdm",
+  "pk": "odjlyl9h2festg0hfoykfmb1g73vfe0c",
   "fields": {
-    "session_data": ".eJxVjDEOAiEQRe9CbQgoAxlLe89AZhiQVcMmy25lvLuSbKHtf-_9l4q0rTVuPS9xEnVWVh1-N6b0yG0AuVO7zTrNbV0m1kPRO-36Okt-Xnb376BSr6PmIzJ6FMAgAQ36ZL1xAZigFC6FwDF9aQEHkp1HK95mEDwxOZPU-wPsaThP:1ubzaC:iuWJ638whHkIsLZOCapgDv-s5wJCC8wwVg9eVgSs6G4",
-    "expire_date": "2025-07-30T10:41:52.160Z"
+    "session_data": ".eJxVjMsOwiAQRf-FtSEDlAFcuvcbyPCSqoGktCvjv2uTLnR7zzn3xTxta_XbyIufEzszZKffLVB85LaDdKd26zz2ti5z4LvCDzr4taf8vBzu30GlUb81kIzaFhUKCCkUhiCMQECaXIzZCSBVFMGEGqFk49AKa43T2soSQVr2_gDJHTaz:1ugMhz:hZO3MISkJ1nZd0PQiZp8v6UGJ3_SXS9ml8-OK0YH00E",
+    "expire_date": "2025-08-11T12:11:59.951Z"
   }
 },
 {
@@ -758,266 +654,450 @@
 },
 {
   "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Cooking",
+    "slug": "cooking"
+  }
+},
+{
+  "model": "taggit.tag",
   "pk": 2,
   "fields": {
-    "name": "music",
-    "slug": "music"
+    "name": "Food",
+    "slug": "food"
   }
 },
 {
   "model": "taggit.tag",
   "pk": 3,
   "fields": {
-    "name": "rnb",
-    "slug": "rnb"
+    "name": "DIY",
+    "slug": "diy"
   }
 },
 {
   "model": "taggit.tag",
   "pk": 4,
   "fields": {
-    "name": "prince",
-    "slug": "prince"
+    "name": "Sustainability",
+    "slug": "sustainability"
   }
 },
 {
   "model": "taggit.tag",
   "pk": 5,
   "fields": {
-    "name": "fleetwoodmac",
-    "slug": "fleetwoodmac"
+    "name": "Gardening",
+    "slug": "gardening"
   }
 },
 {
   "model": "taggit.tag",
   "pk": 6,
   "fields": {
-    "name": "markdown",
-    "slug": "markdown"
+    "name": "Technology",
+    "slug": "technology"
   }
 },
 {
-  "model": "taggit.taggeditem",
-  "pk": 3,
+  "model": "taggit.tag",
+  "pk": 7,
   "fields": {
-    "tag": 3,
-    "content_type": 7,
-    "object_id": 10
+    "name": "Education",
+    "slug": "education"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Programming",
+    "slug": "programming"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "Fashion",
+    "slug": "fashion"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "Shopping",
+    "slug": "shopping"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 11,
+  "fields": {
+    "name": "Fitness",
+    "slug": "fitness"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 12,
+  "fields": {
+    "name": "Health",
+    "slug": "health"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 13,
+  "fields": {
+    "name": "Science",
+    "slug": "science"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 14,
+  "fields": {
+    "name": "Travel",
+    "slug": "travel"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 15,
+  "fields": {
+    "name": "Photography",
+    "slug": "photography"
   }
 },
 {
   "model": "taggit.taggeditem",
-  "pk": 4,
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 10,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
   "fields": {
     "tag": 2,
-    "content_type": 7,
-    "object_id": 15
+    "content_type": 10,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 10,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 3,
+    "content_type": 10,
+    "object_id": 2
   }
 },
 {
   "model": "taggit.taggeditem",
   "pk": 5,
   "fields": {
-    "tag": 3,
-    "content_type": 7,
-    "object_id": 15
+    "tag": 4,
+    "content_type": 10,
+    "object_id": 2
   }
 },
 {
   "model": "taggit.taggeditem",
   "pk": 6,
   "fields": {
-    "tag": 4,
-    "content_type": 7,
-    "object_id": 15
+    "tag": 5,
+    "content_type": 10,
+    "object_id": 2
   }
 },
 {
   "model": "taggit.taggeditem",
   "pk": 7,
   "fields": {
-    "tag": 5,
-    "content_type": 7,
-    "object_id": 15
+    "tag": 8,
+    "content_type": 10,
+    "object_id": 3
   }
 },
 {
   "model": "taggit.taggeditem",
   "pk": 8,
   "fields": {
-    "tag": 2,
-    "content_type": 7,
-    "object_id": 16
-  }
-},
-{
-  "model": "taggit.taggeditem",
-  "pk": 9,
-  "fields": {
-    "tag": 4,
-    "content_type": 7,
-    "object_id": 16
-  }
-},
-{
-  "model": "taggit.taggeditem",
-  "pk": 10,
-  "fields": {
     "tag": 6,
-    "content_type": 7,
-    "object_id": 17
+    "content_type": 10,
+    "object_id": 3
   }
 },
 {
-  "model": "blog.post",
+  "model": "taggit.taggeditem",
   "pk": 9,
   "fields": {
-    "title": "Post 1",
-    "slug": "post-1",
-    "author": 2,
-    "body": "this is the first post fellas. I am trying to do the published thing ko try",
-    "publish": "2025-07-18T08:32:55Z",
-    "created": "2025-07-18T08:33:51.433Z",
-    "updated": "2025-07-18T08:33:51.433Z",
-    "status": "PB"
+    "tag": 7,
+    "content_type": 10,
+    "object_id": 3
   }
 },
 {
-  "model": "blog.post",
+  "model": "taggit.taggeditem",
   "pk": 10,
   "fields": {
-    "title": "new post",
-    "slug": "new-post",
-    "author": 2,
-    "body": "this is the second post atm",
-    "publish": "2025-07-20T08:41:56Z",
-    "created": "2025-07-20T08:42:29.936Z",
-    "updated": "2025-07-20T08:42:29.936Z",
-    "status": "PB"
+    "tag": 9,
+    "content_type": 10,
+    "object_id": 4
   }
 },
 {
-  "model": "blog.post",
+  "model": "taggit.taggeditem",
   "pk": 11,
   "fields": {
-    "title": "one more post now",
-    "slug": "one-more-post-now",
-    "author": 1,
-    "body": "this is the third post atm",
-    "publish": "2025-07-20T09:42:30Z",
-    "created": "2025-07-20T09:43:05.457Z",
-    "updated": "2025-07-20T09:43:05.457Z",
-    "status": "PB"
+    "tag": 10,
+    "content_type": 10,
+    "object_id": 4
   }
 },
 {
-  "model": "blog.post",
+  "model": "taggit.taggeditem",
   "pk": 12,
   "fields": {
-    "title": "new post hai re",
-    "slug": "new-post-hai-re",
-    "author": 1,
-    "body": "hello im just writing random stuff here nothing really important being written",
-    "publish": "2025-07-24T09:13:15Z",
-    "created": "2025-07-24T09:13:57.821Z",
-    "updated": "2025-07-24T09:13:57.821Z",
-    "status": "PB"
+    "tag": 4,
+    "content_type": 10,
+    "object_id": 4
   }
 },
 {
-  "model": "blog.post",
+  "model": "taggit.taggeditem",
   "pk": 13,
   "fields": {
-    "title": "another post ahh",
-    "slug": "another-post-ahh",
-    "author": 2,
-    "body": "oh bhaisaab sach?",
-    "publish": "2025-07-24T09:14:04Z",
-    "created": "2025-07-24T09:14:26.062Z",
-    "updated": "2025-07-24T09:14:26.062Z",
-    "status": "PB"
+    "tag": 3,
+    "content_type": 10,
+    "object_id": 5
   }
 },
 {
-  "model": "blog.post",
+  "model": "taggit.taggeditem",
   "pk": 14,
   "fields": {
-    "title": "another one another one",
-    "slug": "another-one-another-one",
-    "author": 1,
-    "body": "naya naya post paka hai",
-    "publish": "2025-07-24T09:14:27Z",
-    "created": "2025-07-24T09:14:57.283Z",
-    "updated": "2025-07-24T09:14:57.283Z",
-    "status": "PB"
+    "tag": 11,
+    "content_type": 10,
+    "object_id": 5
   }
 },
 {
-  "model": "blog.post",
+  "model": "taggit.taggeditem",
   "pk": 15,
   "fields": {
-    "title": "music masala",
-    "slug": "music-masala",
-    "author": 2,
-    "body": "this is too show similar posts",
-    "publish": "2025-07-27T08:43:11Z",
-    "created": "2025-07-27T08:44:09.999Z",
-    "updated": "2025-07-27T08:44:09.999Z",
-    "status": "PB"
+    "tag": 12,
+    "content_type": 10,
+    "object_id": 5
   }
 },
 {
-  "model": "blog.post",
+  "model": "taggit.taggeditem",
   "pk": 16,
   "fields": {
-    "title": "newpost1234423",
-    "slug": "newpost1234423",
-    "author": 1,
-    "body": "appun vella baitha hai re",
-    "publish": "2025-07-27T08:44:13Z",
-    "created": "2025-07-27T08:44:43.858Z",
-    "updated": "2025-07-27T08:44:43.858Z",
+    "tag": 12,
+    "content_type": 10,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 17,
+  "fields": {
+    "tag": 13,
+    "content_type": 10,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 18,
+  "fields": {
+    "tag": 7,
+    "content_type": 10,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 19,
+  "fields": {
+    "tag": 10,
+    "content_type": 10,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 20,
+  "fields": {
+    "tag": 3,
+    "content_type": 10,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 21,
+  "fields": {
+    "tag": 14,
+    "content_type": 10,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 22,
+  "fields": {
+    "tag": 3,
+    "content_type": 10,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 23,
+  "fields": {
+    "tag": 13,
+    "content_type": 10,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 24,
+  "fields": {
+    "tag": 15,
+    "content_type": 10,
+    "object_id": 8
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "The Art of Baking Bread",
+    "slug": "the-art-of-baking-bread",
+    "author": 7,
+    "body": "Nothing beats the smell of fresh bread filling your kitchen. Mastering basic techniques like kneading and proofing can transform your homemade loaves from dense bricks to airy masterpieces.",
+    "publish": "2025-07-28T12:22:40Z",
+    "created": "2025-07-28T12:23:14.213Z",
+    "updated": "2025-07-28T12:23:14.213Z",
     "status": "PB"
   }
 },
 {
   "model": "blog.post",
-  "pk": 17,
+  "pk": 2,
   "fields": {
-    "title": "Markdoen post",
-    "slug": "markdoen-post",
-    "author": 1,
-    "body": "This is a post formatted with markdown\r\n--------------------------------------\r\n*This is emphasized* and **this is more emphasized**.\r\nHere is a list:\r\n* One\r\n* Two\r\n* Three\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
-    "publish": "2025-07-27T10:27:51Z",
-    "created": "2025-07-27T10:28:58.023Z",
-    "updated": "2025-07-27T10:28:58.023Z",
+    "title": "Urban Gardening in Small Spaces",
+    "slug": "urban-gardening-in-small-spaces",
+    "author": 6,
+    "body": "Even with just a balcony or windowsill, you can grow herbs, microgreens, and cherry tomatoes. Vertical planters and container gardening make urban agriculture surprisingly productive.",
+    "publish": "2025-07-28T12:23:16Z",
+    "created": "2025-07-28T12:23:46.762Z",
+    "updated": "2025-07-28T12:23:46.762Z",
     "status": "PB"
   }
 },
 {
-  "model": "blog.comment",
-  "pk": 1,
+  "model": "blog.post",
+  "pk": 3,
   "fields": {
-    "post": 13,
-    "name": "the post was nice ig",
-    "email": "premawasthi428@gmail.com",
-    "body": "this is a good post would recommend to read",
-    "created": "2025-07-27T04:06:22.076Z",
-    "updated": "2025-07-27T04:06:22.076Z",
-    "active": true
+    "title": "Beginner's Guide to Python",
+    "slug": "beginners-guide-to-python",
+    "author": 6,
+    "body": "Python's clean syntax and vast libraries make it ideal for beginners. Start with basic data types and control structures before diving into more complex concepts.",
+    "publish": "2025-07-28T12:23:52Z",
+    "created": "2025-07-28T12:24:14.963Z",
+    "updated": "2025-07-28T12:24:14.963Z",
+    "status": "PB"
   }
 },
 {
-  "model": "blog.comment",
-  "pk": 2,
+  "model": "blog.post",
+  "pk": 4,
   "fields": {
-    "post": 9,
-    "name": "Prem",
-    "email": "premawasthi428@gmail.com",
-    "body": "not much info but appretiated",
-    "created": "2025-07-27T04:45:41.519Z",
-    "updated": "2025-07-27T04:45:41.519Z",
-    "active": true
+    "title": "Sustainable Fashion Choices",
+    "slug": "sustainable-fashion-choices",
+    "author": 7,
+    "body": "Fast fashion has environmental costs, but thrifting, clothing swaps, and conscious buying can reduce your wardrobe's footprint without sacrificing style.",
+    "publish": "2025-07-28T12:24:16Z",
+    "created": "2025-07-28T12:24:44.648Z",
+    "updated": "2025-07-28T12:24:44.648Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Quick Home Workouts",
+    "slug": "quick-home-workouts",
+    "author": 6,
+    "body": "No gym membership? No problem. Bodyweight exercises like push-ups, squats, and planks can provide a full-body workout in just 20 minutes.",
+    "publish": "2025-07-28T12:24:46Z",
+    "created": "2025-07-28T12:25:12.057Z",
+    "updated": "2025-07-28T12:25:12.057Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "The Science of Sleep",
+    "slug": "the-science-of-sleep",
+    "author": 6,
+    "body": "Quality sleep boosts memory, immunity, and mood. Maintain consistent bedtimes, limit screen exposure, and keep your bedroom cool for optimal rest.",
+    "publish": "2025-07-28T12:25:13Z",
+    "created": "2025-07-28T12:25:38.682Z",
+    "updated": "2025-07-28T12:25:38.682Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Budget Travel Hacks",
+    "slug": "budget-travel-hacks",
+    "author": 7,
+    "body": "Traveling cheaply doesn't mean sacrificing experiences. Off-season visits, public transportation, and local eats can stretch your budget significantly.",
+    "publish": "2025-07-28T12:25:46Z",
+    "created": "2025-07-28T12:26:12.002Z",
+    "updated": "2025-07-28T12:26:12.002Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "Introduction to Astrophotography",
+    "slug": "introduction-to-astrophotography",
+    "author": 7,
+    "body": "Capturing the night sky requires patience and the right equipment. Start with a DSLR, tripod, and dark location to photograph the moon and brighter constellations.",
+    "publish": "2025-07-28T12:26:13Z",
+    "created": "2025-07-28T12:26:38.769Z",
+    "updated": "2025-07-28T12:26:38.769Z",
+    "status": "PB"
   }
 }
 ]
