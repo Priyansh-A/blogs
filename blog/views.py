@@ -3,7 +3,7 @@ from .models import Post
 from django.core.paginator import EmptyPage, PageNotAnInteger,    Paginator
 from django.shortcuts import get_object_or_404, render
 from django.core.mail import send_mail
-from .forms import CommentForm, EmailPostForm, SearchForms
+from .forms import CommentForm, EmailPostForm, SearchForm
 from django.views.decorators.http import require_POST
 from taggit.models import Tag
 from django.db.models import Count
@@ -140,12 +140,12 @@ def post_comment(request,post_id):
 
 
 def post_search(request):
-    form=SearchForms()
+    form=SearchForm()
     query = None
     results=[]
     
     if 'query' in request.GET:
-        form=SearchForms(request.GET)
+        form=SearchForm(request.GET)
         if form.is_valid():
             query = form.cleaned_data['query']
             results=(
