@@ -6,4 +6,6 @@ django-taggit==5.0.1
 Markdown==3.6
 psycopg2
 dj-database-url
+waitress
+whitenoise
 gunicorn
