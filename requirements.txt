@@ -4,6 +4,6 @@ sqlparse
 python-decouple
 django-taggit
 Markdown
-psycopg
+psycopg2-binary
 dj-database-url
 gunicorn
