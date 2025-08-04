@@ -106,13 +106,15 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # }
 
 DATABASES = {
+    "default":{
     'default': dj_database_url.config(
         default=os.getenv('DATABASE_URL'),
         conn_max_age=600,
         ssl_require=True
-    ),
+    ), 
         'ENGINE': 'django.db.backends.postgresql',
 }
+    }
 
 AUTH_PASSWORD_VALIDATORS = [
     {
