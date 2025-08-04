@@ -1,5 +1,5 @@
-asgiref~
-Django~
+asgiref
+Django
 sqlparse
 python-decouple
 django-taggit
