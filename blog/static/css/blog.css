@@ -1,6 +1,6 @@
-
 *{
-    background-color: #fff
+    fill:#ededed;
+    background-color: #efefef;
 }
 body { 
     margin:0;
@@ -8,7 +8,7 @@ body {
     font-family:helvetica, sans-serif; 
 }
 
-a{ 
+a { 
     color:#00abff;
     text-decoration:none; 
 }
@@ -68,9 +68,10 @@ input, textarea {
     float:left;
     margin:0 0 10px;
     background:#ededed;
-    border:0;
+    border:1px solid black;
     padding:6px 10px;
     font-size:12px;
+
 }
 input[type=submit] {
     font-weight:bold;
@@ -79,6 +80,7 @@ input[type=submit] {
     padding:10px 20px;
     font-size:14px;
     text-transform:uppercase; 
+    /* border: 1px solid black */
 }
 .errorlist { 
     color:#cc0033;

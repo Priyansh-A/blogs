@@ -1,0 +1,9 @@
+asgiref~
+Django~
+sqlparse
+python-decouple
+django-taggit
+Markdown
+psycopg
+dj-database-url
+gunicorn
